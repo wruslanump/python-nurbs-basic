@@ -1,0 +1,98 @@
+wruslan@HPElBk-8570w-5:~/github/wruslanump/python-nurbs-basic01/nurbs-python2$ date
+Tue 06 Jul 2021 10:12:28 AM +08
+
+wruslan@HPElBk-8570w-5:~/github/wruslanump/python-nurbs-basic01/nurbs-python2$ uname -a
+Linux HPElBk-8570w-5.11.4-rt11 5.11.4-rt11 
+#1 SMP PREEMPT_RT Sat Jul 3 21:30:36 +08 2021 x86_64 x86_64 x86_64 GNU/Linux
+
+wruslan@HPElBk-8570w-5:~/github/wruslanump/python-nurbs-basic01/nurbs-python2$ lsb_release -a
+LSB Version:	core-11.1.0ubuntu2-noarch:security-11.1.0ubuntu2-noarch
+Distributor ID:	Ubuntu
+Description:	Ubuntu 20.04.2 LTS
+Release:	20.04
+Codename:	focal
+wruslan@HPElBk-8570w-5:~/github/wruslanump/python-nurbs-basic01/nurbs-python2$ 
+
+===============================================================================
+wruslan@HPElBk-8570w-5:~/github/wruslanump/python-nurbs-basic01/nurbs-python2$ cd ../nurbs-python3/
+wruslan@HPElBk-8570w-5:~/github/wruslanump/python-nurbs-basic01/nurbs-python3$ python3 py3_runtest_modules.py 
+2021-07-06 10:16:36.435934 ==>  Starting:  py3_runtest_modules.py ==> Bismillah Hirrahma Nirrahim
+2021-07-06 10:16:36.436052 ==>  ### BASIC SYSTEM PACKAGES
+2021-07-06 10:16:36.436107 ==>  import ... sys
+2021-07-06 10:16:36.436168 ==>  import ... os
+2021-07-06 10:16:36.436222 ==>  import ... time
+2021-07-06 10:16:36.436280 ==>  import ... datetime
+2021-07-06 10:16:36.436334 ==>  import ... dateutil
+2021-07-06 10:16:36.438521 ==>  import ... errno
+2021-07-06 10:16:36.438768 ==>  import ... psutil
+2021-07-06 10:16:36.502672 ==>  ### MATHEMATICAL PACKAGES
+2021-07-06 10:16:36.502764 ==>  import ... numpy
+2021-07-06 10:16:36.679374 ==>  import ... scipy
+2021-07-06 10:16:36.699638 ==>  import ... random
+2021-07-06 10:16:36.699705 ==>  import ... random2
+2021-07-06 10:16:36.717448 ==>  import ... math
+2021-07-06 10:16:36.717543 ==>  import ... cmath
+2021-07-06 10:16:36.717731 ==>  import ... fractions
+2021-07-06 10:16:36.720401 ==>  import ... statistics
+2021-07-06 10:16:36.721633 ==>  import ... io
+2021-07-06 10:16:36.721706 ==>  import ... string
+2021-07-06 10:16:36.723718 ==>  import ... from io import StringIO
+2021-07-06 10:16:36.723797 ==>  import ... mpmath
+2021-07-06 10:16:36.773909 ==>  ### EXECUTION AND PROCESSING PACKAGES
+2021-07-06 10:16:36.773977 ==>  import ... mpi4py
+2021-07-06 10:16:36.774511 ==>  import ... threading
+2021-07-06 10:16:36.774553 ==>  import ... multiprocessing
+2021-07-06 10:16:36.777388 ==>  import ... concurrent
+2021-07-06 10:16:36.777912 ==>  import ... trace
+2021-07-06 10:16:36.785389 ==>  import ... traceback
+2021-07-06 10:16:36.785426 ==>  import ... Concurrent_AP
+2021-07-06 10:16:38.129487 ==>  import ... parallel_transform
+2021-07-06 10:16:38.132268 ==>  import ... pytest_parallel
+2021-07-06 10:16:38.231945 ==>  import ... cython
+2021-07-06 10:16:38.237797 ==>  ### GRAPHICS PROCESSING PACKAGES
+2021-07-06 10:16:38.237843 ==>  import ... geomdl
+2021-07-06 10:16:38.238595 ==>  import ... plotly
+2021-07-06 10:16:38.239695 ==>  import ... plotlywidget
+2021-07-06 10:16:38.240066 ==>  import ... chart_studio
+2021-07-06 10:16:39.145139 ==>  import ... matplotlib
+2021-07-06 10:16:39.260735 ==>  import ... matplotlib.pyplot
+2021-07-06 10:16:39.546913 ==>  import ... pylab
+2021-07-06 10:16:39.548502 ==>  import ... PyGnuplot
+2021-07-06 10:16:39.564008 ==>  import ... graphviz
+2021-07-06 10:16:39.650782 ==>  import ... pydot
+2021-07-06 10:16:39.654879 ==>  import ... pydotplus
+2021-07-06 10:16:39.691026 ==>  import ... tkinter
+2021-07-06 10:16:39.698514 ==>  import ... landscape_pdf
+2021-07-06 10:16:39.707234 ==>  import ... PyQt5
+2021-07-06 10:16:39.707290 ==>  ### FILE PROCESSING PACKAGES
+2021-07-06 10:16:39.707314 ==>  import ... io
+2021-07-06 10:16:39.707339 ==>  import ... fileinput
+2021-07-06 10:16:39.707731 ==>  import ... difflib
+2021-07-06 10:16:39.707769 ==>  import ... filecmp
+2021-07-06 10:16:39.707800 ==>  ### DATA PROCESSING PACKAGES
+2021-07-06 10:16:39.707831 ==>  import ... h5py
+2021-07-06 10:16:39.773007 ==>  import ... h5pyViewer
+2021-07-06 10:16:39.773488 ==>  import ... hdf5storage
+2021-07-06 10:16:39.819563 ==>  import ... h5df
+2021-07-06 10:16:39.832243 ==>  import ... csv
+2021-07-06 10:16:39.832295 ==>  import ... pandas
+2021-07-06 10:16:39.832320 ==>  import ... seaborn
+2021-07-06 10:16:39.871707 ==>  import ... vitables
+2021-07-06 10:16:39.872529 ==>  ### DEEP LEARLING NEURAL NETWORKS
+2021-07-06 10:16:39.872577 ==>  import ... sklearn
+2021-07-06 10:16:39.872614 ==>  import ... torch
+2021-07-06 10:16:40.639465 ==>  import ... torchvision
+2021-07-06 10:16:40.654067 ==>  import ... theano
+2021-07-06 10:16:42.153289 ==>  import ... tornado
+2021-07-06 10:16:42.153591 ==>  import ... tensorflow
+2021-07-06 10:16:42.531442: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+2021-07-06 10:16:44.345659 ==>  import ... keras
+2021-07-06 10:16:44.365987 ==>  Completed: py3_runtest_modules.py ==> Alhamdulillah Hirrabil Alamin
+2021-07-06 10:16:44.366092 ==>  Duration: 7.930167 seconds execution for the total running time.
+wruslan@HPElBk-8570w-5:~/github/wruslanump/python-nurbs-basic01/nurbs-python3$ 
+
+
+===============================================================================
+ALHAMDULILLAH 3 TIMES.
+===============================================================================
+

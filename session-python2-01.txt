@@ -1,0 +1,100 @@
+wruslan@HPElBk-8570w-5:~/github/wruslanump/python-nurbs-basic01/nurbs-python2$ date
+Tue 06 Jul 2021 10:12:28 AM +08
+
+wruslan@HPElBk-8570w-5:~/github/wruslanump/python-nurbs-basic01/nurbs-python2$ uname -a
+Linux HPElBk-8570w-5.11.4-rt11 5.11.4-rt11 
+#1 SMP PREEMPT_RT Sat Jul 3 21:30:36 +08 2021 x86_64 x86_64 x86_64 GNU/Linux
+
+wruslan@HPElBk-8570w-5:~/github/wruslanump/python-nurbs-basic01/nurbs-python2$ lsb_release -a
+LSB Version:	core-11.1.0ubuntu2-noarch:security-11.1.0ubuntu2-noarch
+Distributor ID:	Ubuntu
+Description:	Ubuntu 20.04.2 LTS
+Release:	20.04
+Codename:	focal
+wruslan@HPElBk-8570w-5:~/github/wruslanump/python-nurbs-basic01/nurbs-python2$ 
+
+===============================================================================
+wruslan@HPElBk-8570w-5:~/github/wruslanump/python-nurbs-basic01$ ls -al
+total 28
+drwxrwxr-x  6 wruslan wruslan 4096 Jun 20 02:23 .
+drwxrwxr-x 27 wruslan wruslan 4096 Jun 20 02:23 ..
+drwxrwxr-x  2 wruslan wruslan 4096 Jun 20 01:50 docs
+drwxrwxr-x  8 wruslan wruslan 4096 Jun 20 02:31 .git
+drwxrwxr-x  3 wruslan wruslan 4096 Jul  6 10:10 nurbs-python2
+drwxrwxr-x  3 wruslan wruslan 4096 Jul  6 10:10 nurbs-python3
+-rw-rw-r--  1 wruslan wruslan   67 Jun 20 02:23 README.md
+wruslan@HPElBk-8570w-5:~/github/wruslanump/python-nurbs-basic01$ cd nurbs-python2/
+wruslan@HPElBk-8570w-5:~/github/wruslanump/python-nurbs-basic01/nurbs-python2$ 
+wruslan@HPElBk-8570w-5:~/github/wruslanump/python-nurbs-basic01/nurbs-python2$ python py2_runtest_modules.py 
+2021-07-06 10:11:03.810857 ==>  Starting:  py2_runtest_modules.py ==> Bismillah Hirrahma Nirrahim in python2.7
+2021-07-06 10:11:03.810938 ==>  ### BASIC SYSTEM PACKAGES
+2021-07-06 10:11:03.810977 ==>  import ... sys
+2021-07-06 10:11:03.811014 ==>  import ... os
+2021-07-06 10:11:03.811048 ==>  import ... time
+2021-07-06 10:11:03.811081 ==>  import ... datetime
+2021-07-06 10:11:03.811115 ==>  import ... dateutil
+2021-07-06 10:11:03.812397 ==>  import ... errno
+2021-07-06 10:11:03.812448 ==>  import ... psutil
+2021-07-06 10:11:03.845468 ==>  ### MATHEMATICAL PACKAGES
+2021-07-06 10:11:03.845505 ==>  import ... numpy
+2021-07-06 10:11:03.922256 ==>  import ... scipy
+2021-07-06 10:11:03.931117 ==>  import ... random
+2021-07-06 10:11:03.931197 ==>  import ... random2
+2021-07-06 10:11:03.933727 ==>  import ... math
+2021-07-06 10:11:03.933790 ==>  import ... cmath
+2021-07-06 10:11:03.933870 ==>  import ... decimal
+2021-07-06 10:11:03.933919 ==>  import ... fractions
+2021-07-06 10:11:03.940039 ==>  import ... statistics
+2021-07-06 10:11:03.941160 ==>  import ... string
+2021-07-06 10:11:03.941223 ==>  import ... StringIO
+2021-07-06 10:11:03.941278 ==>  import ... mpmath
+2021-07-06 10:11:03.977239 ==>  ### EXECUTION AND PROCESSING PACKAGES
+2021-07-06 10:11:03.977332 ==>  import ... mpi4py
+2021-07-06 10:11:03.977937 ==>  import ... threading
+2021-07-06 10:11:03.978003 ==>  import ... multiprocessing
+2021-07-06 10:11:03.980996 ==>  import ... concurrent
+2021-07-06 10:11:03.982060 ==>  import ... trace
+2021-07-06 10:11:03.994485 ==>  import ... traceback
+2021-07-06 10:11:03.994520 ==>  import ... traceback2
+2021-07-06 10:11:04.004401 ==>  import ... cython
+2021-07-06 10:11:04.006408 ==>  ### GRAPHICS PROCESSING PACKAGES
+2021-07-06 10:11:04.006435 ==>  import ... matplotlib
+2021-07-06 10:11:04.142517 ==>  import ... matplotlib.pyplot
+2021-07-06 10:11:05.167711 ==>  import ... pylab
+2021-07-06 10:11:05.176987 ==>  import ... plotly
+2021-07-06 10:11:05.497391 ==>  import ... plotlywidget
+2021-07-06 10:11:05.497734 ==>  import ... chart_studio
+2021-07-06 10:11:06.589014 ==>  import ... geomdl
+2021-07-06 10:11:06.589713 ==>  import ... Gnuplot
+2021-07-06 10:11:06.591138 ==>  import ... PyGnuplot
+2021-07-06 10:11:06.604539 ==>  import ... pygnuplot
+2021-07-06 10:11:06.605678 ==>  import ... graphviz
+2021-07-06 10:11:06.617290 ==>  import ... PyPDF2
+2021-07-06 10:11:06.629209 ==>  import ... pydot
+2021-07-06 10:11:06.636461 ==>  import ... pydotplus
+2021-07-06 10:11:06.640482 ==>  import ... tkinter
+2021-07-06 10:11:06.641735 ==>  import ... PyQt4
+2021-07-06 10:11:06.642920 ==>  import ... PyQt5
+2021-07-06 10:11:06.644031 ==>  ### FILE PROCESSING PACKAGES
+2021-07-06 10:11:06.644087 ==>  import ... io
+2021-07-06 10:11:06.644140 ==>  import ... fileinput
+2021-07-06 10:11:06.649033 ==>  import ... difflib
+2021-07-06 10:11:06.649117 ==>  import ... filecmp
+2021-07-06 10:11:06.652610 ==>  import ... FileDialog
+2021-07-06 10:11:06.652694 ==>  ### DATA PROCESSING PACKAGES
+2021-07-06 10:11:06.652739 ==>  import ... h5py
+2021-07-06 10:11:06.738389 ==>  import ... h5pyViewer
+2021-07-06 10:11:06.738911 ==>  import ... hdf5storage
+2021-07-06 10:11:07.236409 ==>  import ... csv
+2021-07-06 10:11:07.236465 ==>  import ... pandas
+2021-07-06 10:11:07.236502 ==>  import ... seaborn
+2021-07-06 10:11:08.158094 ==>  Completed: py2_runtest_modules.py ==> Alhamdulillah Hirrabil Alamin in python2.7
+2021-07-06 10:11:08.158205 ==>  Duration: 4.347365 seconds execution for the total running time of py2_runtest_modules.py
+wruslan@HPElBk-8570w-5:~/github/wruslanump/python-nurbs-basic01/nurbs-python2$ 
+wruslan@HPElBk-8570w-5:~/github/wruslanump/python-nurbs-basic01/nurbs-python2$ 
+
+===============================================================================
+ALHAMDULILLAH 3 TIMES.
+===============================================================================
+
+

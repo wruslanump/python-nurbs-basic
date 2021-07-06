@@ -1,0 +1,131 @@
+Welcome to the NURBS-Python (geomdl) v5.x documentation!
+https://nurbs-python.readthedocs.io/en/5.x/
+
+NURBS is an acronym for Non-Uniform Rational Basis Spline and it represents a mathematical model for generation of geometric shapes in a flexible way. It is a well-accepted industry standard and used as a basis for nearly all of the 3-dimensional modeling and CAD/CAM software packages as well as modeling and visualization frameworks.
+
+NURBS-Python is a free and open-source, object-oriented, user-friendly library, regardless of the mathematical complexity of the splines. NURBS-Python (geomdl) is tested with Python versions 2.7.x, 3.4.x and higher.
+
+===========================================================
+wruslan@HPEliteBk8470p-ubstudio-20:~$ date
+Sat 19 Jun 2021 11:38:31 PM +08
+
+wruslan@HPEliteBk8470p-ubstudio-20:~$ uname -a
+Linux HPEliteBk8470p-ubstudio-20 5.10.25-rt35 
+#3 SMP PREEMPT_RT Wed Apr 7 12:33:26 +08 2021 x86_64 x86_64 x86_64 GNU/Linux
+ 
+wruslan@HPEliteBk8470p-ubstudio-20:~$ lsb_release -a
+LSB Version:	core-11.1.0ubuntu2-noarch:security-11.1.0ubuntu2-noarch
+Distributor ID:	Ubuntu
+Description:	Ubuntu 20.04.2 LTS
+Release:	20.04
+Codename:	focal
+wruslan@HPEliteBk8470p-ubstudio-20:~$ 
+
+===========================================================
+(1) NURBS-Python (geomdl) for PYTHON 2.7.18
+===========================================================
+wruslan@HPEliteBk8470p-ubstudio-20:~$ python
+Python 2.7.18 (default, Mar  8 2021, 13:02:45) 
+[GCC 9.3.0] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 
+>>> import matplotlib           <=== python-nurbs requirement
+>>> import plotly               <=== python-nurbs requirement
+>>> import geomdl               <=== This is python-nurbs
+>>> 
+>>> matplotlib.__version__
+'2.0.2'
+>>> 
+>>> plotly.__version__
+u'4.14.3+8.g03979d105'
+>>> 
+>>> geomdl.__version__
+'5.3.1'
+>>> 
+
+>>> import numpy
+>>> import scipy
+>>> import matplotlib.pyplot
+
+>>> import Gnuplot
+>>> import PyGnuplot
+
+>>> import graphviz
+>>> import pygraphviz
+>>> import pydot
+
+>>> 
+[1]+  Stopped                 python
+wruslan@HPEliteBk8470p-ubstudio-20:~$ 
+
+===========================================================
+(2) NURBS-Python (geomdl) for PYTHON 3.8.5
+===========================================================
+wruslan@HPEliteBk8470p-ubstudio-20:~$ python3
+Python 3.8.5 (default, May 27 2021, 13:30:53) 
+[GCC 9.3.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 
+>>> import matplotlib           <=== python-nurbs requirement
+>>> import plotly               <=== python-nurbs requirement
+>>> import geomdl               <=== This is python-nurbs
+>>> 
+>>> matplotlib.__version__
+'3.4.2'
+>>> 
+>>> plotly.__version__
+'4.14.3'
+>>> 
+>>> geomdl.__version__
+'5.3.1'
+>>> 
+
+>>> import numpy
+>>> import scipy
+>>> import matplotlib.pyplot
+
+>>> import Gnuplot
+>>> import PyGnuplot
+
+>>> import graphviz
+>>> import pygraphviz
+>>> import pydot
+
+>>> 
+[1]+  Stopped                 python3
+wruslan@HPEliteBk8470p-ubstudio-20:~$ 
+===========================================================
+ALHAMDULILLAH 3 TIMES WRY
+===========================================================
+wruslan@HPEliteBk8470p-ubstudio-20:~$ python
+Python 2.7.18 (default, Mar  8 2021, 13:02:45) 
+[GCC 9.3.0] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 
+>>> import numpy
+>>> import scipy
+>>> import matplotlib
+>>> import plotly
+>>> import geomdl
+>>> 
+>>> 
+[4]+  Stopped                 python
+wruslan@HPEliteBk8470p-ubstudio-20:~$ 
+
+===========================================================
+wruslan@HPEliteBk8470p-ubstudio-20:~$ python3
+Python 3.8.5 (default, May 27 2021, 13:30:53) 
+[GCC 9.3.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 
+>>> import numpy
+>>> import scipy
+>>> import matplotlib
+>>> import plotly
+>>> import geomdl
+>>> 
+>>> 
+[5]+  Stopped                 python3
+wruslan@HPEliteBk8470p-ubstudio-20:~$ 
+
+============================================================
